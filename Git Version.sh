@@ -6,6 +6,8 @@
 # No Copyright Claimed. Public Domain.
 #
 
+PATH="${PATH}:/usr/local/git/bin/"
+
 INFO="${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Info"
 GITDIR="${PROJECT_DIR}/.git"
 
