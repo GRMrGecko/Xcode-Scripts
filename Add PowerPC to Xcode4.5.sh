@@ -200,7 +200,7 @@ if [ "$PROCESS" = "1" ]; then
 		exit
 	fi
 	
-	echo "If requested, enter your password to gain access to install nessisary files."
+	echo "If requested, enter your password to gain access to install necessary files."
 	sudo "$0" installroot
 fi
 if [ "$PROCESS" = "2" ]; then
